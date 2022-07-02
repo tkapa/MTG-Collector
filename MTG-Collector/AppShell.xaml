@@ -7,7 +7,7 @@
     Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
-        Title="Home"
+        Title="MTG Collection"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
 
