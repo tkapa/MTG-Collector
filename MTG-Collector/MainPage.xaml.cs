@@ -1,10 +1,13 @@
-﻿namespace MTG_Collector;
+﻿using MTG_Collector.ViewModel;
+
+namespace MTG_Collector;
 
 public partial class MainPage : ContentPage
 {
-	public MainPage()
+	public MainPage(MainViewModel vm)
 	{
 		InitializeComponent();
+		BindingContext = vm;
 	}
 }
 
